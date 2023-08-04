@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+            </tr>
+        </thead>
 
+        <tbody>
+            <tr>
+                <td>hola beats</td>
+                <td>gratis</td>
+            </tr>
+            <tr>
+                <td>spotify</td>
+                <td>20.0000 gs</td>
+            </tr>
+            <tr>
+                <td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+                <td>25.0000 gs</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 49.80 gs</td>
+        </tfoot>
+    </table>
+
+
+
+<!-- lista no ordenada -->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+
+<!-- lista ordenada -->
+    <ol>
+        <li value="50">elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">subelemento1</li>
+                <li style="list-style-type: lower-roman;">subelemento2</li>
+                <li style="list-style-type: lower-roman;">subelemento3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="lichi" type="text" id="nombre" name="nombre" placeholder="Liz Ferreira..">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="ferreira" type="text" id="apellido" name="apellido" placeholder="Apellido..">
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="comentario" placeholder="comentario" cols="50" rows="10">valor por defecto</textarea>
+        <br>
+        <button type="button"> <img src="/static/artinmycoffee.png" width="50">Tipo boton</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chanchito feliz</h6>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda. Eum maxime nesciunt soluta vero pariatur harum expedita repellat dolore earum tenetur! Fugiat omnis magnam libero unde, itaque quis voluptate?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quisquam maiores adipisci ex nesciunt maxime nam, unde quos veritatis harum alias optio illo debitis. Saepe eligendi eius nesciunt doloribus libero.</p>
+    <hr>
+    <h2>Chanchito lichi</h2>
+    <p>Lorem ipsum dolor sit amet, <span style="color:blueviolet">mucho mas largo</span> consectetur adipisicing elit. 
+        Deserunt a quaerat <br><br>
+        officia reprehenderit nisi <br> facilis sequi earum excepturi qui, rem assumenda maxime atque placeat quo enim sit ipsum eum voluptatem!</p>
+    <!-- comentario -->
+    <!-- comentario
+    largo -->
+    <a target="_blank" href="https://www.google.com.py">I a google</a>
+    <br>
+    <img src="/static/artinmycoffee.png" width="400" height="300" />
+
+</body>
+</html>
